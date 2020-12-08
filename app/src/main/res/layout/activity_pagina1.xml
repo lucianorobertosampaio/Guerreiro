@@ -1,0 +1,37 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pagina1">
+
+
+    <ImageView
+        android:id="@+id/proximo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/conchas"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+         android:id="@id/proximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amizade não se explica. Amigos sempre sabem quando serão amigos, pois compartilham momentos juntos, dão forças; estão sempre lado a lado, nas conquistas e nas derrotas, nas horas boas e nas difíceis."
+        android:textSize="60sp"
+        android:fontFamily="casual"
+        android:textColor="#000" />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+
