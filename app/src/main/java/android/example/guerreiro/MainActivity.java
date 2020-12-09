@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent Video = new Intent(getApplicationContext(), Pagina1.class);
+                Intent Video = new Intent(getApplicationContext(), Pagina3.class);
 
                 startActivity(Video);
 

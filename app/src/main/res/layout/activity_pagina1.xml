@@ -6,20 +6,18 @@
     android:orientation="vertical"
     tools:context=".Pagina1">
 
-
     <ImageView
-        android:id="@+id/proximo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/conchas"/>
+        android:src="@drawable/estrela395kb"/>
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
         <TextView
-         android:id="@id/proximo"
+            android:id="@+id/proximo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Amizade não se explica. Amigos sempre sabem quando serão amigos, pois compartilham momentos juntos, dão forças; estão sempre lado a lado, nas conquistas e nas derrotas, nas horas boas e nas difíceis."

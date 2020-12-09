@@ -11,6 +11,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/conchas"/>
+        android:src="@drawable/girassol_lite"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="340dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/t2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:fontFamily="sans-serif"
+        android:padding="15dp"
+        android:text="Feliz Aniversário, Tia!"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="36dp"
+        android:fontFamily="sans-serif"
+        android:padding="15dp"
+        android:text="De, Luciano!"
+        android:textColor="#fff"/>
 
 </RelativeLayout>

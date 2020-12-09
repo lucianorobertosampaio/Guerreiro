@@ -6,41 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/proximo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/deserto"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="340dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/t2" />
+        android:src="@drawable/girassol_lite"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="36dp"
-        android:fontFamily="sans-serif"
-        android:padding="15dp"
-        android:text="Feliz Aniversário, Tia!"
-        android:textColor="#fff"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:textSize="36dp"
-        android:fontFamily="sans-serif"
-        android:padding="15dp"
-        android:text="De, Luciano!"
-        android:textColor="#fff"/>
-
-
-
+        android:text="Com carinho..."
+        android:textColor="#000"
+        android:textSize="27dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="100dp"/>
 
 </RelativeLayout>
+
+
+

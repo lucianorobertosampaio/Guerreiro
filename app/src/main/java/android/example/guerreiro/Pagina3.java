@@ -26,7 +26,7 @@ public class Pagina3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent Pagina3 = new Intent(getApplicationContext(), MainActivity.class);
+                Intent Pagina3 = new Intent(getApplicationContext(), Pagina1.class);
 
                 startActivity(Pagina3);
             }
